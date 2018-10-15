@@ -1,0 +1,14 @@
+.parallax-section{
+	margin-top: 50px;
+}
+
+.input{
+	width: 800px !important;
+}
+
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
