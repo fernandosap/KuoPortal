@@ -9,7 +9,7 @@ function Login(){
 
   if (email == "vendedor@kuo.com" && password == "Welcome1."){
       console.log("password correcto");
-      window.location.href = "/bienvenido"
+      window.location.href = "/home_tremec"
   } else {
     alert("Password o usuario incorrecto");
   };

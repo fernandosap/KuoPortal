@@ -1,0 +1,8 @@
+---
+applications:
+- name: KuoPortal
+  memory: 512M
+  instances: 2
+  command: node KuoPortal.js
+  buildpacks: 
+      - nodejs_buildpack
