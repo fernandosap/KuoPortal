@@ -8,8 +8,7 @@ function Login(){
   var password = $.trim($("input[name='password']").val());
 
   if (email == "vendedor@kuo.com" && password == "Welcome1."){
-      console.log("password correcto");
-      window.location.href = "/home_tremec"
+      $("#modalConfirmacion").modal('show');
   } else {
     alert("Password o usuario incorrecto");
   };
@@ -34,3 +33,6 @@ function Login(){
 //     });
 // }
 
+function Authenticator(){
+  window.location.href = "/home_tremec"
+}

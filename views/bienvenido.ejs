@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>TREMEC Portal de Órdenes</title>
-    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/css/bienvenido.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -74,6 +74,8 @@
                               <br>
                               <div>
                                    <button id="crear_pedido" type="submit" class="btn btn-lg btn-primary" onclick="CrearPedido();return false" name="submit">Crear Pedido</button>
+
+                                   <button id="ver_pedidos" type="submit" class="btn btn-lg btn-success" onclick="mispedidos();return false" name="submit">Ver Pedidos</button>
                               </div>
                         </form>
                     </div>

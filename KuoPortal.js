@@ -158,7 +158,7 @@ app.post('/EliminarPedidoRecast', function(req, res){
 	        res.send({
 		    replies: [{
 		      type: 'text',
-		      content: 'Tu pedido ha sido eliminado satisfactoriamente. ¿Te puedo ayudar en algo más?',
+		      content: 'Tu pedido ha sido eliminado satisfactoriamente. ¿Te puedo ayudar en algo más?'
 		    }]
 		  }); 
 	    } else {
