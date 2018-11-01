@@ -1,5 +1,5 @@
 console.log("JS conectado");
-id_usuario = "Vendedor KUO"
+id_usuario = "Vendedor"
 
 $.post("/consultarPedidos",{id_usuario:id_usuario},function(result){
       pedidos = result.resultado.pedidos;

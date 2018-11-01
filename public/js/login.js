@@ -7,7 +7,7 @@ function Login(){
   var email = $.trim($("input[name='email']").val());
   var password = $.trim($("input[name='password']").val());
 
-  if (email == "vendedor@kuo.com" && password == "Welcome1."){
+  if (email == "vendedor@tremec.com" && password == "Welcome1."){
       $("#modalConfirmacion").modal('show');
   } else {
     alert("Password o usuario incorrecto");
